@@ -1,0 +1,1 @@
+const visit=require("unist-util-visit");module.exports=function({markdownAST:a}){visit(a,"code",a=>{a.initialValue=a.value})};

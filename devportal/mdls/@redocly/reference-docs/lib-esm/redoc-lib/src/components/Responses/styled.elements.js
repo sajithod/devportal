@@ -1,0 +1,2 @@
+import{__makeTemplateObject}from"tslib";import{FieldsGroupHeader}from"../../common-elements";import styled from"../../styled-components";export var HeadersCaption=styled(FieldsGroupHeader.withComponent("caption"))(templateObject_1||(templateObject_1=__makeTemplateObject(["\n  text-align: left;\n  margin-top: 1em;\n  caption-side: top;\n"],["\n  text-align: left;\n  margin-top: 1em;\n  caption-side: top;\n"])));var templateObject_1;
+//# sourceMappingURL=styled.elements.js.map

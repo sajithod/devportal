@@ -1,0 +1,2 @@
+"use strict";function throttle(t,e){var l,n,r,u=null,o=0,i=function(){o=(new Date).getTime(),u=null,r=t.apply(l,n),u||(l=n=null)};return function(){var a=(new Date).getTime(),c=e-(a-o);return l=this,n=arguments,c<=0||c>e?(u&&(clearTimeout(u),u=null),o=a,r=t.apply(l,n),u||(l=n=null)):u||(u=setTimeout(i,c)),r}}function Throttle(t){return function(e,l,n){n.value=throttle(n.value,t)}}Object.defineProperty(exports,"__esModule",{value:!0}),exports.Throttle=void 0,exports.Throttle=Throttle;
+//# sourceMappingURL=decorators.js.map

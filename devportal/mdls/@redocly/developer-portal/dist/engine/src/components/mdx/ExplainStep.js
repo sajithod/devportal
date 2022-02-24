@@ -1,0 +1,1 @@
+import*as React from"react";import{RedocStepByStepContext}from"./StepByStepWrapper";export const ExplainStep=({id:a,needs:b,placeholder:c})=>{const{operationsResults:d}=React.useContext(RedocStepByStepContext),e=b?.map(a=>d[a]);return React.createElement("div",{id:a},c.apply(null,e))};

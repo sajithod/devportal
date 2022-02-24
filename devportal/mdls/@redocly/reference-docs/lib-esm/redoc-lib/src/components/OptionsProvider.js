@@ -1,0 +1,2 @@
+import*as React from"react";import{RedocNormalizedOptions}from"../services/RedocNormalizedOptions";export var OptionsContext=React.createContext(new RedocNormalizedOptions({}));export var OptionsProvider=OptionsContext.Provider;export var OptionsConsumer=OptionsContext.Consumer;
+//# sourceMappingURL=OptionsProvider.js.map

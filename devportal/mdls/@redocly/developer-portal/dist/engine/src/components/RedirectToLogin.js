@@ -1,0 +1,7 @@
+import*as React from"react";import{useStaticQuery,graphql}from"gatsby";import*as qs from"qs";import{LoadingAnimation}from"./LoadingAnimation";import{getUserJwt}from"../ui/auth/utils";import{usePathPrefix,removeLeadingSlash}from"../ui/utils";import{withPathPrefix}from"../utils";export function useIdpLoginPath(a,b={}){let{redirectTo:c,loginHint:d,withPathPrefix:e=!0}=b;c||"undefined"==typeof window||(c=qs.parse(window.location.search.slice(1)).redirect_to);let f=e?usePathPrefix():"/";"/"===f&&(f="");const g=a?"/"+a:"",h="production"===process.env.NODE_ENV?`${f}/idp-login${g}`:`${f}/dev-idp-login${g}`,i=qs.stringify({redirect_to:c||null,login_hint:d},{skipNulls:!0});return h+(i.length?"?"+i:"")}export function useLoginPageUrl(a,b={}){return console.warn("[warning] useLoginPageUrl is deprecated, use useIdpLoginPath instead"),useIdpLoginPath(a,b)}function useCustomLoginPagePath(){const{siteConfig:{customLoginPagePath:a}}=useStaticQuery(graphql`
+    query RedirectToLoginQuery {
+      siteConfig {
+        customLoginPagePath
+      }
+    }
+  `),b=usePathPrefix();return a?withPathPrefix(removeLeadingSlash(a),b):null}export function RedirectToLogin({idpId:a}){const b=useCustomLoginPagePath(),c=useIdpLoginPath(a);return React.useEffect(()=>{getUserJwt()||window.location.replace((b||c)+("?redirect_to="+encodeURIComponent(window.location.pathname)))},[]),React.createElement(LoadingAnimation,{stretch:!0})}export function LoginPageLink(a){const b=useCustomLoginPagePath(),c=useIdpLoginPath(a.idpId);return React.createElement("a",{href:b||c},a.children)}

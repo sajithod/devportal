@@ -1,0 +1,2 @@
+import{__makeTemplateObject}from"tslib";import{css}from"../styled-components";export var deprecatedCss=css(templateObject_1||(templateObject_1=__makeTemplateObject(["\n  text-decoration: line-through;\n  color: #707070;\n"],["\n  text-decoration: line-through;\n  color: #707070;\n"])));var templateObject_1;
+//# sourceMappingURL=mixins.js.map

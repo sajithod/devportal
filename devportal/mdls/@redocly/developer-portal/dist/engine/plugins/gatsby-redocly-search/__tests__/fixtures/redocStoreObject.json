@@ -1,0 +1,52 @@
+{
+  "menu": {
+    "activeItemIdx": -1
+  },
+  "definition": {
+    "data": {
+      "openapi": "3.0.0",
+      "info": {
+        "description": "This is a sample server Petstore server.",
+        "version": "1.0.0",
+        "title": "Swagger Petstore",
+        "termsOfService": "http://swagger.io/terms/",
+        "contact": {
+          "name": "API Support",
+          "email": "apiteam@swagger.io",
+          "url": "https://github.com/Rebilly/ReDoc"
+        },
+        "license": {
+          "name": "Apache 2.0",
+          "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        }
+      },
+      "paths": {
+        "/pet/findByTags": {
+          "get": {
+            "tags": ["pet"],
+            "summary": "Finds Pets by tags. This is a test text content to test dot-separated words: process.env.HOME",
+            "description": "Muliple tags can be provided with comma seperated strings. Use tag1, tag2, tag3 for testing. This is a test text content to test words, separeated with '/' http://redocly.com http/google/com",
+            "operationId": "findPetsByTags",
+            "deprecated": true,
+            "parameters": [
+              {
+                "name": "tags",
+                "in": "query",
+                "description": "Tags to filter by",
+                "required": true,
+                "style": "form",
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "options": {}
+}

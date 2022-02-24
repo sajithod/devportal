@@ -1,0 +1,2 @@
+import{__makeTemplateObject}from"tslib";import styled from"../../redoc-lib/src/styled-components";export var Title=styled.span(templateObject_1||(templateObject_1=__makeTemplateObject(["\n  line-height: 1;\n  margin-right: 4px;\n  font-weight: 700;\n  color: ",";\n"],["\n  line-height: 1;\n  margin-right: 4px;\n  font-weight: 700;\n  color: ",";\n"])),(function(t){return t.theme.colors.text.light}));var templateObject_1;
+//# sourceMappingURL=Title.js.map

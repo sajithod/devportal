@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var tslib_1=require("tslib"),native_1=(0,tslib_1.__importDefault)(require("./native"));exports.default={info:{key:"ruby",title:"Ruby",extname:".rb",default:"native"},native:native_1.default};
+//# sourceMappingURL=index.js.map

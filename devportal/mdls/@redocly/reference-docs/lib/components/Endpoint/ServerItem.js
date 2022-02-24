@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.ServerItem=void 0;var templateObject_1,tslib_1=require("tslib"),styled_components_1=(0,tslib_1.__importDefault)(require("../../redoc-lib/src/styled-components"));exports.ServerItem=styled_components_1.default.div(templateObject_1||(templateObject_1=(0,tslib_1.__makeTemplateObject)(["\n  padding: 10px 0;\n"],["\n  padding: 10px 0;\n"])));
+//# sourceMappingURL=ServerItem.js.map

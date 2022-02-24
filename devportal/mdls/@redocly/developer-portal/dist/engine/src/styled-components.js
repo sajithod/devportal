@@ -1,0 +1,1 @@
+import"core-js/es/symbol";import*as styledComponents from"styled-components";const{default:styled,css,createGlobalStyle,keyframes,ThemeProvider,ThemeContext,withTheme}=styledComponents;export{css,createGlobalStyle,keyframes,ThemeProvider,ThemeContext,withTheme};export default styled;

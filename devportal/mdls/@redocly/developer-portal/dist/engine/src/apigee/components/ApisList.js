@@ -1,0 +1,4 @@
+import*as React from"react";import styled from"styled-components";import{Alert}from"../../ui";import ApiItem from"./ApiItem";export default function ApisList(a){const{products:b,enabledApis:c,onChange:d}=a;if(!b?.length)return React.createElement(Alert,{variant:"warning",content:"There are no API products yet."});const e=(a,b)=>{const e=b?[...c,a]:c.filter(b=>b!==a);d(e)},f=b.sort((c,a)=>c.displayName.localeCompare(a.displayName));return React.createElement(List,null,f.map(a=>{const b=c.includes(a.name);return React.createElement(ApiItem,{key:a.name,product:a,enabled:b,onChange:e})}))}const List=styled.div`
+  max-height: 350px;
+  overflow-y: auto;
+`;

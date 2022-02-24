@@ -1,0 +1,1 @@
+import*as React from"react";import{getReadableDate}from"../../../apigee/services/helpers";import OverviewRow from"./OverviewRow";import TruncatedText from"./TruncatedText";export default function ExpiresAtRow(a){const{expiresAt:b}=a,c=0<+b?getReadableDate(b):"Never";return React.createElement(OverviewRow,{title:"Expires",content:React.createElement(TruncatedText,null,c)})}

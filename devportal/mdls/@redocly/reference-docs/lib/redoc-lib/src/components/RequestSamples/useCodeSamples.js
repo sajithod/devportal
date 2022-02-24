@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.useCodeSamples=void 0;var tslib_1=require("tslib");function useCodeSamples(e){var l=e.allCodeSamples,s=e.payload,a=l.map((function(e){var l,s;return(0,tslib_1.__assign)({key:e.lang+"_"+(null!==(l=e.label)&&void 0!==l?l:""),title:null!==(s=e.label)&&void 0!==s?s:e.lang},e)}));return{payload:s,samples:a}}exports.useCodeSamples=useCodeSamples;
+//# sourceMappingURL=useCodeSamples.js.map

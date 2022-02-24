@@ -1,0 +1,1 @@
+export function getHooks(){let a={};try{a=require("Content/_override/ReferenceDocsHooks")}catch(a){}return a}

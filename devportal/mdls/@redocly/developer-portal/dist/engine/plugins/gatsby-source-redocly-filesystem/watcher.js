@@ -1,0 +1,1 @@
+const chokidar=require(`chokidar`),definitionsWatcher=chokidar.watch([],{ignored:a=>a.includes("node_modules")||a.includes(".git")});exports.definitionsWatcher=definitionsWatcher;

@@ -1,0 +1,1 @@
+import*as React from"react";export const PageDataContext=React.createContext({});export function usePageData(){return React.useContext(PageDataContext)}

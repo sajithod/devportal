@@ -1,0 +1,1 @@
+import*as React from"react";import{RedoclyReferenceDocs}from"@redocly/reference-docs";export default function ApiReferenceInfo({store:a,data:b}){return React.useEffect(()=>{a.menu.renderItems[0]&&"section"!==a.menu.renderItems[0].type&&(a.menu.renderItems=[])},[a]),React.createElement(RedoclyReferenceDocs,{store:a,_forceRenderInfo:!!b.redocHasInfoPage})}

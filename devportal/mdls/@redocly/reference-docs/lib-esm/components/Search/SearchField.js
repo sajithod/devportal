@@ -1,0 +1,2 @@
+import*as React from"react";import{SearchFieldWrap,SearchIcon,ButtonClear,CrossIcon}from"./styled";export var SearchField=function(e){var a=e.showPopUp,r=e.searchValue,t=e.marker,c=e.setSearchValue,n=!!r;return React.createElement(SearchFieldWrap,{onClick:a},React.createElement("span",null),r||"Search",React.createElement(SearchIcon,null),n&&React.createElement(ButtonClear,{onClick:function(e){e.stopPropagation(),t.unmark(),c("")}},React.createElement(CrossIcon,null)))};
+//# sourceMappingURL=SearchField.js.map

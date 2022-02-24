@@ -1,0 +1,2 @@
+import*as React from"react";import{CallbackDetails}from"./CallbackDetails";import{CallbackPanel}from"../../../../components/Panel";import{CallbackSummary}from"./CallbackSummary";export var CallbackOperation=function(a){var e=a.operation;return React.createElement(CallbackPanel,{header:function(a){var l=a.expanded,t=a.toggle;return React.createElement(CallbackSummary,{operation:e,toggle:t,expanded:l})},expanded:Boolean(e.expanded)},React.createElement(CallbackDetails,{operation:e}))};
+//# sourceMappingURL=CallbackOperation.js.map

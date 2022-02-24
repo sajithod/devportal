@@ -1,0 +1,1 @@
+const nodeFullVersion=process.version,nodeMajorVersion=nodeFullVersion.substr(0,nodeFullVersion.indexOf(".")),nodeMajorVersionNumber=nodeMajorVersion.replace(/^\D+/g,"");if(17<=nodeMajorVersionNumber){const a=require("crypto"),b=a.createHash;a.createHash=a=>b("md4"===a?"sha256":a)}

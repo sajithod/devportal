@@ -1,0 +1,2 @@
+import{__extends}from"tslib";import*as React from"react";import{ResponseView}from"./Response";var ResponsesList=function(e){function t(){return null!==e&&e.apply(this,arguments)||this}return __extends(t,e),Object.defineProperty(t.prototype,"render",{enumerable:!1,configurable:!0,writable:!0,value:function(){var e=this.props.responses;return e&&0!==e.length?React.createElement("div",null,e.map((function(e){return React.createElement(ResponseView,{key:e.code,response:e})}))):null}}),t}(React.PureComponent);export{ResponsesList};
+//# sourceMappingURL=ResponsesList.js.map

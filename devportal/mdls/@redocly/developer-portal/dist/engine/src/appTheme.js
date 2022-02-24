@@ -1,0 +1,12 @@
+import{theme as userTheme}from"Content/theme";import{defaultTheme}from"./defaultTheme";import{typography}from"./common-elements";import{css,ZERO_BREAKPOINT}from"@redocly/reference-docs";userTheme.menu&&!userTheme.sidebar&&(userTheme.sidebar=userTheme.menu,console.warn("Theme setting \"menu\" is deprecated. Rename to \"sidebar\""));export const appTheme=resolveTheme(mergeObjects({},defaultTheme,userTheme));appTheme.mediaQueries={print:"@media print"};for(const[a,b]of Object.entries(appTheme.breakpoints))appTheme.mediaQueries[a]=`@media screen and (min-width: ${b})`;export const gradient=({theme:a})=>`
+linear-gradient(
+  -63.43000000000001deg,
+  ${a.colors.navbar.main} 15%,
+  ${a.colors.navbar.gradient} 85%
+);
+`;export function replaceHashInColor(a){return a.replace("#","%23")}export function svgToDataUri(a,b){return`data:image/svg+xml,${encodeURIComponent(a.replace(/#000/g,b))}`}export function genTokens(a){if(!a)return"";let b="";for(const c of Object.keys(a))"default"!==c&&(b+=`.token.${c} { color: ${a[c].color}; }\n`);return a.default?css`
+      pre& {
+        ${typography(a.default)}
+      }
+      ${b}
+    `:b}function resolveTheme(a){const b={};let c=0;const d=(e,f)=>{Object.keys(e).forEach(g=>{const h=(f?f+".":"")+g,i=e[g];"function"==typeof i?Object.defineProperty(e,g,{get(){if(!b[h]){if(c++,1e3<c)throw new Error(`Theme probably contains cirucal dependency at ${h}: ${i.toString()}`);b[h]=i(a)}return b[h]},enumerable:!0}):"object"==typeof i&&d(i,h)})};return d(a,""),JSON.parse(JSON.stringify(a))}function mergeObjects(a,...b){if(!b.length)return a;const c=b.shift();return void 0===c?a:(isMergebleObject(a)&&isMergebleObject(c)&&Object.keys(c).forEach(b=>{isMergebleObject(c[b])?(!a[b]&&(a[b]={}),["string","number"].includes(typeof a[b])&&(!c[b][ZERO_BREAKPOINT]&&0!==c[b][ZERO_BREAKPOINT]&&console.warn(`Theme resolver: using default value of "${a[b]}" for "${b}". This is not recommended. Prefer adding default value by providing "${ZERO_BREAKPOINT}" property to ${JSON.stringify(c[b])}.`),a[b]={[ZERO_BREAKPOINT]:a[b]}),mergeObjects(a[b],c[b])):a[b]=c[b]}),mergeObjects(a,...b))}function isObject(a){return null!==a&&"object"==typeof a}function isMergebleObject(a){return isObject(a)&&!Array.isArray(a)}

@@ -1,0 +1,2 @@
+import{__assign}from"tslib";export function useCodeSamples(l){var a=l.allCodeSamples,e=l.payload,n=a.map((function(l){var a,e;return __assign({key:l.lang+"_"+(null!==(a=l.label)&&void 0!==a?a:""),title:null!==(e=l.label)&&void 0!==e?e:l.lang},l)}));return{payload:e,samples:n}}
+//# sourceMappingURL=useCodeSamples.js.map

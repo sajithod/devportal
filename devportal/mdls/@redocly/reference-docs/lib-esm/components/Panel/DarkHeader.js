@@ -1,0 +1,2 @@
+import{__makeTemplateObject}from"tslib";import{css}from"../../redoc-lib/src/styled-components";export var DarkHeader=css(templateObject_1||(templateObject_1=__makeTemplateObject(["\n  padding: 10px 20px;\n  line-height: 30px;\n  background-color: ",";\n"],["\n  padding: 10px 20px;\n  line-height: 30px;\n  background-color: ",";\n"])),(function(e){return e.theme.rightPanel.panelControlsBackgroundColor}));var templateObject_1;
+//# sourceMappingURL=DarkHeader.js.map

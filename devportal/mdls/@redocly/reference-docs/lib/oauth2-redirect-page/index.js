@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),require("core-js/web/url");var oauth2_redirect_handler_1=require("./handler/oauth2-redirect-handler");function run(){var e,r=null===(e=window.opener)||void 0===e?void 0:e.redirectOAuth2;try{(0,oauth2_redirect_handler_1.handleOAuth2Redirect)(r)}catch(e){null==r||r.errorCallback(e)}window.close()}window.onload=run;
+//# sourceMappingURL=index.js.map

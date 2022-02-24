@@ -1,0 +1,2 @@
+import*as React from"react";export function RenderHook(e){if(!e.Hook)return null;var r=e.Hook(e.props);return r&&r.html?React.createElement("span",{dangerouslySetInnerHTML:{__html:r.html}}):r}
+//# sourceMappingURL=helper.js.map

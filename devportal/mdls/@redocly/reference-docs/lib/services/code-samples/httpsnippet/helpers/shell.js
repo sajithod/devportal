@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var util_1=require("util");exports.default={quote:function(e){return/^[a-z0-9-_/.@%^=:]+$/i.test(e)?e:(0,util_1.format)("'%s'",e.replace(/'/g,"'\\''"))},escape:function(e){return e.replace(/\r/g,"\\r").replace(/\n/g,"\\n")}};
+//# sourceMappingURL=shell.js.map

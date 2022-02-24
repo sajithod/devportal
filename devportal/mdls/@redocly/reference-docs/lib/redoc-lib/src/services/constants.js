@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.FIELD_ATTR=exports.SECTION_ATTR=void 0,exports.SECTION_ATTR="data-section-id",exports.FIELD_ATTR="data-field-id";
+//# sourceMappingURL=constants.js.map

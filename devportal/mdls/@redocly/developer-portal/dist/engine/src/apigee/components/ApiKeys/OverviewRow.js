@@ -1,0 +1,3 @@
+import*as React from"react";import styled from"styled-components";import{CompactTypography}from"../../../ui";export default function OverviewRow(a){const{title:b,content:c,action1:d,action2:e}=a;return React.createElement(React.Fragment,null,React.createElement(FieldName,null,b+":"),c,d||React.createElement("div",null),e||React.createElement("div",null))}const FieldName=styled(CompactTypography)`
+  font-weight: ${({theme:a})=>a.typography.fontWeightBold};
+`;

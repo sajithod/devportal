@@ -1,0 +1,2 @@
+import{__awaiter,__generator}from"tslib";import*as React from"react";import{useState}from"react";import{Button}from"./Button";export var CopyButton=function(t){var e=t.text,r=useState("Copy"),o=r[0],n=r[1];return React.createElement(Button,{onClick:function(){return __awaiter(void 0,void 0,void 0,(function(){return __generator(this,(function(t){switch(t.label){case 0:return[4,navigator.clipboard.writeText(e)];case 1:return t.sent(),n("Copied!"),setTimeout((function(){return n("Copy")}),1500),[2]}}))}))}},o)};
+//# sourceMappingURL=CopyButton.js.map

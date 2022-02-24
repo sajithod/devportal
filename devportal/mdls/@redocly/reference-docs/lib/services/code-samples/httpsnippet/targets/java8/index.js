@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var tslib_1=require("tslib"),apachehttp_1=(0,tslib_1.__importDefault)(require("./apachehttp"));exports.default={info:{key:"java8",title:"Java8+Apache",extname:".java",default:"apachehttp"},apachehttp:apachehttp_1.default};
+//# sourceMappingURL=index.js.map

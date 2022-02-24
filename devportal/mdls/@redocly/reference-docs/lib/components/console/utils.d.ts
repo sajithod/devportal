@@ -1,0 +1,12 @@
+import { FieldModel, OpenAPIServer, Server, ServerVariables } from '../../redoc-lib';
+export declare function normalizeUrlProtocol(url: string): string;
+export declare function updateStorage(state: GenericObject): void;
+export declare const getParameters: (parameters: FieldModel[], type: string) => GenericObject;
+export declare function getServerWithVariables(operationServers: OpenAPIServer[], activeIndex?: number): Server;
+export declare function getInitialServerWithVariables(operationServers: OpenAPIServer[]): Server;
+export declare function expandVariables(url: string, variables?: GenericObject): string;
+export declare function expandDefaultServerVariables(url: string, variables?: GenericObject): string;
+export declare function getDefaultOrStoredVariables(server?: OpenAPIServer): ServerVariables;
+export declare function updateVariablesStorage(name: string, value: string): void;
+export declare function unescapeQueryParams(params: GenericObject): GenericObject;
+export declare function getFileNameFromHeaders(headers: Record<string, string>): string;

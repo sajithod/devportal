@@ -1,0 +1,37 @@
+{
+  "type":"reference-docs",
+  "definitionId":"petstoreTest",
+  "label":"The Order Model",
+  "settings":{
+    "pagination":"item",
+    "generateCodeSamples":{
+      "languages":[
+
+      ]
+    }
+  },
+  "version":"undefined",
+  "apiVersions":[
+    {
+      "definitionId":"petstoreTest",
+      "isDefault":true,
+      "title":"petstoreTest",
+      "id":"petstoreTest"
+    }
+  ],
+  "apiVersionId":"undefined",
+  "isDefaultApiVersion":true,
+  "redocStoreStr":"{\"menu\":{\"activeItemIdx\":-1},\"definition\":{\"data\":{\"openapi\":\"3.0.0\"}}}",
+  "permission":"guest",
+  "lastModified":"2021-10-07T16:56:48.000Z",
+  "httpVerb":"undefined",
+  "redocItemId":"tag/store_model",
+  "redocInfoPageLink":"/openapi/reference-test/overview/",
+  "redocHasSecurityDefinitions":true,
+  "redocPagination":"item",
+  "seo":{
+    "title":"The Order Model",
+    "description":"<SchemaDefinitionschemaRef=\"#/components/schemas/Order\"exampleRef=\"#/components/examples/Order\",showReadOnly={true}showWriteOnly={true} />\n"
+  },
+  "customData":{}
+}

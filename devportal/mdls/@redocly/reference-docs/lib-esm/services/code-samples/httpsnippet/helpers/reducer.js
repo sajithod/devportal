@@ -1,0 +1,2 @@
+export default function(e,a){if(void 0===e[a.name])return e[a.name]=a.value,e;if(e[a.name]instanceof Array)return e[a.name].push(a.value),e;var n=[e[a.name],a.value];return e[a.name]=n,e}
+//# sourceMappingURL=reducer.js.map

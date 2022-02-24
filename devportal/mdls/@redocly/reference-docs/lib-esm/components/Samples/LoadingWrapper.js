@@ -1,0 +1,2 @@
+import{__makeTemplateObject}from"tslib";import styled from"../../redoc-lib/src/styled-components";export var LoadingWrapper=styled.div(templateObject_1||(templateObject_1=__makeTemplateObject(["\n  transition: opacity 0.2s;\n\n  .loading &:not(.updated) {\n    opacity: 0.5;\n  }\n"],["\n  transition: opacity 0.2s;\n\n  .loading &:not(.updated) {\n    opacity: 0.5;\n  }\n"])));var templateObject_1;
+//# sourceMappingURL=LoadingWrapper.js.map

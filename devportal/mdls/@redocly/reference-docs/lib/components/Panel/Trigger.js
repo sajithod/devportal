@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Trigger=void 0;var templateObject_1,tslib_1=require("tslib"),styled_components_1=(0,tslib_1.__importDefault)(require("../../redoc-lib/src/styled-components"));exports.Trigger=styled_components_1.default.div(templateObject_1||(templateObject_1=(0,tslib_1.__makeTemplateObject)(["\n  display: inline-flex;\n  align-items: center;\n"],["\n  display: inline-flex;\n  align-items: center;\n"])));
+//# sourceMappingURL=Trigger.js.map

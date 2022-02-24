@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.OptionsConsumer=exports.OptionsProvider=exports.OptionsContext=void 0;var tslib_1=require("tslib"),React=(0,tslib_1.__importStar)(require("react")),RedocNormalizedOptions_1=require("../services/RedocNormalizedOptions");exports.OptionsContext=React.createContext(new RedocNormalizedOptions_1.RedocNormalizedOptions({})),exports.OptionsProvider=exports.OptionsContext.Provider,exports.OptionsConsumer=exports.OptionsContext.Consumer;
+//# sourceMappingURL=OptionsProvider.js.map

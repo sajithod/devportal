@@ -1,0 +1,5 @@
+
+    const cmd = require("F:/devportal/node_modules/@redocly/developer-portal/node_modules/gatsby/dist/commands/develop-process.js");
+    const args = {"directory":"F:\\devportal\\node_modules\\@redocly\\developer-portal\\dist\\engine","browserList":[">0.25%","not dead"],"sitePackageJson":{"name":"portal-template","private":true,"version":"0.0.1","description":"Redocly portal template repository","license":"MIT","scripts":{"start":"redocly-portal develop -p 3000","build":"redocly-portal build","clean":"redocly-portal clean"},"dependencies":{"@redocly/developer-portal":"1.1.0-beta.81"}},"verbose":false,"_":["develop"],"p":"3000","port":62442,"H":"localhost","host":"localhost","openapi-problems-format":"stylish","openapiProblemsFormat":"stylish","$0":"node_modules\\@redocly\\developer-portal\\dist\\cli.js","proxyPort":3000,"ssl":null,"debugInfo":null};
+    cmd(args);
+  

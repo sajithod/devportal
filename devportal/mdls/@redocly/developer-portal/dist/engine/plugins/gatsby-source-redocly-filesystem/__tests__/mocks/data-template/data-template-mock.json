@@ -1,0 +1,11 @@
+{
+  "seo": {
+    "description": "",
+    "title": "A2Gateway"
+  },
+  "customTemplate": "/redocly-portal/site/_components/GatewaysPage.tsx",
+  "customData": {
+    "title": "A2Gateway"
+  },
+  "permission": "guest"
+}

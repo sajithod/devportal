@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.useUnmount=void 0;var react_1=require("react"),useUnmount=function(e){(0,react_1.useEffect)((function(){return function(){e()}}),[])};exports.useUnmount=useUnmount;
+//# sourceMappingURL=useUnmount.js.map

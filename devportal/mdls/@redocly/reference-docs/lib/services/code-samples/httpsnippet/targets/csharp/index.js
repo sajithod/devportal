@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var tslib_1=require("tslib"),httpclient_1=(0,tslib_1.__importDefault)(require("./httpclient"));exports.default={info:{key:"csharp",title:"CSharp",extname:".cs",default:"httpclient"},httpclient:httpclient_1.default};
+//# sourceMappingURL=index.js.map

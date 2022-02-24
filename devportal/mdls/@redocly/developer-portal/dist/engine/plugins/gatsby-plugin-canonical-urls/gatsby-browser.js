@@ -1,0 +1,1 @@
+exports.onRouteUpdate=({location:a},b={stripQueryString:!1,stripHash:!1})=>{const c=document.querySelector(`link[rel='canonical']`),d=c.getAttribute(`href`),e=c.getAttribute(`data-baseProtocol`),f=c.getAttribute(`data-baseHost`);if(d&&e&&f){let d=`${e}//${f}${a.pathname}`;const{stripQueryString:g,stripHash:h}=b;g||(d+=a.search),h||(d+=a.hash),c.setAttribute(`href`,`${d}`)}};

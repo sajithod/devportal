@@ -1,0 +1,53 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "colbyfayock",
+      "name": "Colby Fayock",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1045274?v=4",
+      "profile": "https://colbyfayock.com/newsletter",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "richardtaylordawson",
+      "name": "Richard Taylor Dawson",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25511178?v=4",
+      "profile": "https://richardtaylordawson.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "herrwitzi",
+      "name": "Markus Witzlsperger",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/33927057?v=4",
+      "profile": "http://www.witzlsperger.de",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "psykzz",
+      "name": "Matt Smith",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1134201?v=4",
+      "profile": "https://psykzz.com",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "gatsby-plugin-google-marketing-platform",
+  "projectOwner": "colbyfayock",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

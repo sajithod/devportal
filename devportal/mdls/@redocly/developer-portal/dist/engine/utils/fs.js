@@ -1,0 +1,1 @@
+const{parseYaml}=require("@redocly/openapi-core"),fs=require("fs");function readJsonOrYaml(a){const b=a+".yaml",c=a+".json";let d;if(fs.existsSync(b))d=b;else if(fs.existsSync(c))d=c;else return null;return parseYaml(fs.readFileSync(d,"utf-8"))}module.exports={readJsonOrYaml};

@@ -1,0 +1,1 @@
+import{JsonPointer}from"@redocly/reference-docs";export function getOperationInfoByPointer(a,b){try{const[c,d,e]=JsonPointer.parse(b),f=a.definition.paths[d],g=f?.[e];return g&&{...g,pathName:d,httpVerb:e,pathParameters:f.parameters||[],pathServers:f.servers}}catch(a){return void console.error(a)}}

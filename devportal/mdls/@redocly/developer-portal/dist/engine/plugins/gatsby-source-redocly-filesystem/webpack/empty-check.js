@@ -1,0 +1,1 @@
+export default function(){return Promise.resolve({allowed:!0,valid:!0})}

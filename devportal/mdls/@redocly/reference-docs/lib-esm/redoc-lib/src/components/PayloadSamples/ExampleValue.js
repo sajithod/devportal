@@ -1,0 +1,2 @@
+import*as React from"react";import{isJsonLike,langFromMime}from"../../utils/openapi";import{JsonViewer}from"../JsonViewer/JsonViewer";import{SourceCodeWithText}from"../SourceCode/SourceCode";export function ExampleValue(e){var o=e.value,r=e.mimeType;return isJsonLike(r)?React.createElement(JsonViewer,{data:o}):("object"==typeof o&&(o=JSON.stringify(o,null,2)),React.createElement(SourceCodeWithText,{lang:langFromMime(r),source:o}))}
+//# sourceMappingURL=ExampleValue.js.map

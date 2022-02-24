@@ -1,0 +1,37 @@
+{
+  "type":"reference-docs",
+  "definitionId":"petstoreTest",
+  "label":"Overview",
+  "settings":{
+    "pagination":"item",
+    "generateCodeSamples":{
+      "languages":[
+        "Array"
+      ]
+    }
+  },
+  "version":"undefined",
+  "apiVersions":[
+    {
+      "definitionId":"petstoreTest",
+      "isDefault":true,
+      "title":"petstoreTest",
+      "id":"petstoreTest"
+    }
+  ],
+  "apiVersionId":"test",
+  "isDefaultApiVersion":true,
+  "redocStoreStr":"{\"menu\":{\"activeItemIdx\":-1},\"definition\":{\"data\":{\"openapi\":\"3.0.0\"}}}",
+  "permission":"guest",
+  "lastModified":"2021-10-07T16:56:48.000Z",
+  "seo":{
+    "title":"Overview",
+    "jsonLd": {
+      "@context": "testContext.com"
+    }
+  },
+  "redocItemId":"overview",
+  "redocHasInfoPage":true,
+  "redocHasSecurityDefinitions":true,
+  "redocPagination":"item"
+}

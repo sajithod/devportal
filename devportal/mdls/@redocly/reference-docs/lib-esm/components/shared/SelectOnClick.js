@@ -1,0 +1,2 @@
+import*as React from"react";import{ClipboardService}from"../../redoc-lib/src/services";export var SelectOnClick=function(e){var r,t=e.children,c=function(){ClipboardService.selectElement(r)};return React.createElement("div",{ref:function(e){return r=e},onClick:c,onFocus:c,tabIndex:0,role:"button"},t)};
+//# sourceMappingURL=SelectOnClick.js.map

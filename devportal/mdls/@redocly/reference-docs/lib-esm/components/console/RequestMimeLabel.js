@@ -1,0 +1,2 @@
+import{__makeTemplateObject}from"tslib";import styled from"../../redoc-lib/src/styled-components";import{MimeLabel}from"../shared";export var RequestMimeLabel=styled(MimeLabel)(templateObject_1||(templateObject_1=__makeTemplateObject(["\n  border-radius: ",";\n  margin-bottom: 10px;\n"],["\n  border-radius: ",";\n  margin-bottom: 10px;\n"])),(function(e){return e.theme.components.panels.borderRadius}));var templateObject_1;
+//# sourceMappingURL=RequestMimeLabel.js.map

@@ -1,0 +1,2 @@
+export var Lang;!function(a){a.NODEJS="Node.js",a.JAVASCRIPT="javascript",a.PYTHON="Python",a.JAVA8="Java8+Apache",a.JAVA="Java",a.CSHARP="C#",a.CURL="curl",a.GO="Go",a.PHP="PHP",a.RUBY="Ruby"}(Lang||(Lang={}));export var NamingVariableConventions;!function(a){a.UNDER_SCORES="under_scores",a.CAMEL_CASE="camelCase",a.PASCAL_CASE="PascalCase"}(NamingVariableConventions||(NamingVariableConventions={}));export var VariableType;!function(a){a.IMPORT="import",a.CUSTOM="custom",a.PATH="path"}(VariableType||(VariableType={}));
+//# sourceMappingURL=constants.js.map

@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.SelectOnClick=void 0;var tslib_1=require("tslib"),React=(0,tslib_1.__importStar)(require("react")),services_1=require("../../redoc-lib/src/services"),SelectOnClick=function(e){var r,t=e.children,c=function(){services_1.ClipboardService.selectElement(r)};return React.createElement("div",{ref:function(e){return r=e},onClick:c,onFocus:c,tabIndex:0,role:"button"},t)};exports.SelectOnClick=SelectOnClick;
+//# sourceMappingURL=SelectOnClick.js.map

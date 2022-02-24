@@ -1,0 +1,1 @@
+export function App({children:a,location:b}){return a}

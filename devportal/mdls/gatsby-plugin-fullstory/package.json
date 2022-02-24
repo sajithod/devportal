@@ -1,0 +1,72 @@
+{
+  "_from": "gatsby-plugin-fullstory@~3.4.0",
+  "_id": "gatsby-plugin-fullstory@3.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-a8vFhLv/4Qqwy3Ru0ae+zB0k8GU7mYfvAli8d67xuXefHQCqAiauS7J16k2w6kteGIEnfLPQbX6tn7+9do7OTA==",
+  "_location": "/gatsby-plugin-fullstory",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "gatsby-plugin-fullstory@~3.4.0",
+    "name": "gatsby-plugin-fullstory",
+    "escapedName": "gatsby-plugin-fullstory",
+    "rawSpec": "~3.4.0",
+    "saveSpec": null,
+    "fetchSpec": "~3.4.0"
+  },
+  "_requiredBy": [
+    "/@redocly/developer-portal"
+  ],
+  "_resolved": "https://registry.npmjs.org/gatsby-plugin-fullstory/-/gatsby-plugin-fullstory-3.4.0.tgz",
+  "_shasum": "25bb85a93684a423a5f3d6022144ddc80cbe940c",
+  "_spec": "gatsby-plugin-fullstory@~3.4.0",
+  "_where": "F:\\devportal\\node_modules\\@redocly\\developer-portal",
+  "author": {
+    "name": "Kyle Mathews",
+    "email": "mathews.kyle@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@babel/runtime": "^7.12.5"
+  },
+  "deprecated": false,
+  "description": "Plugin to add the tracking code for Fullstory.com",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "babel-preset-gatsby-package": "^1.4.0",
+    "cross-env": "^7.0.3"
+  },
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "gitHead": "668aa435a3f4ee70f198ea78bda83fde39fda21e",
+  "homepage": "https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-plugin-fullstory#readme",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "gatsby-plugin-fullstory",
+  "peerDependencies": {
+    "gatsby": "^3.0.0-next.0",
+    "react": "^16.9.0 || ^17.0.0",
+    "react-dom": "^16.9.0 || ^17.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsbyjs/gatsby.git",
+    "directory": "packages/gatsby-plugin-fullstory"
+  },
+  "scripts": {
+    "build": "babel src --out-dir . --ignore \"**/__tests__\"",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "watch": "babel -w src --out-dir . --ignore \"**/__tests__\""
+  },
+  "version": "3.4.0"
+}

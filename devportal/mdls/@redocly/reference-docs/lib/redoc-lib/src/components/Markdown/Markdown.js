@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Markdown=void 0;var tslib_1=require("tslib"),React=(0,tslib_1.__importStar)(require("react")),services_1=require("../../services"),SanitizedMdBlock_1=require("./SanitizedMdBlock"),Markdown=function(e){var r=e.source,t=(0,tslib_1.__rest)(e,["source"]),i=new services_1.MarkdownRenderer;return React.createElement(SanitizedMdBlock_1.SanitizedMarkdownHTML,(0,tslib_1.__assign)({},t,{html:i.renderMd(r)}))};exports.Markdown=Markdown;
+//# sourceMappingURL=Markdown.js.map

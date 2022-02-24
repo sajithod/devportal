@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var tslib_1=require("tslib"),curl_1=(0,tslib_1.__importDefault)(require("./curl"));exports.default={info:{key:"php",title:"PHP",extname:".php",default:"curl"},curl:curl_1.default};
+//# sourceMappingURL=index.js.map

@@ -1,0 +1,2 @@
+export declare function typography(theme: any): "" | import("styled-components").FlattenInterpolation<import("styled-components").ThemeProps<import("@redocly/reference-docs/lib/services/extendTheme").ProTheme>>;
+export declare function margins(theme: any): "" | import("styled-components").FlattenInterpolation<import("styled-components").ThemeProps<import("@redocly/reference-docs/lib/services/extendTheme").ProTheme>>;

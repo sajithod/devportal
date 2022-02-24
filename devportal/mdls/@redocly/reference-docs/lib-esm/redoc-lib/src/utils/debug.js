@@ -1,0 +1,2 @@
+export function debugTime(e){"production"!==process.env.NODE_ENV&&console.time(e)}export function debugTimeEnd(e){"production"!==process.env.NODE_ENV&&console.timeEnd(e)}
+//# sourceMappingURL=debug.js.map

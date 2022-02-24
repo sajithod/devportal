@@ -1,0 +1,9 @@
+import*as React from"react";import styled from"styled-components";import{Box,Flex,CompactTypography}from"../../../ui";import TruncatedText from"./TruncatedText";import StatusBadge from"./StatusBadge";const COLLAPSED_API_PRODUCTS_NUMBER=4,STATUS_BADGES={approved:React.createElement(StatusBadge,{color:"success"},"Approved"),revoked:React.createElement(StatusBadge,{color:"secondary"},"Revoked"),pending:React.createElement(StatusBadge,{color:"warning"},"Pending")};export default function ApiKeyProductsStatus(a){const{apiProducts:b}=a,[c,d]=React.useState(!1),e=c?b:b.slice(0,COLLAPSED_API_PRODUCTS_NUMBER),f=b.length>COLLAPSED_API_PRODUCTS_NUMBER;return React.createElement(Box,null,React.createElement(ProductsHeader,null,"Products:"),e.map(a=>React.createElement(ApiProductStatus,{apiProduct:a,key:a.apiproduct})),f&&React.createElement(ShowMoreButton,{showMore:c,onClick:()=>d(!c)}))}function ApiProductStatus(a){const{apiProduct:b}=a;return React.createElement(Flex,{alignItems:"baseline"},React.createElement(TruncatedText,{style:{marginRight:"1em"}},b.apiproduct),STATUS_BADGES[b.status])}function ShowMoreButton(a){const{showMore:b,onClick:c}=a;return b?React.createElement(LightButton,{onClick:c,"data-cy":"show-less"},"Show less"):React.createElement(LightButton,{onClick:c,"data-cy":"show-more"},"Show more...")}const ProductsHeader=styled(CompactTypography).attrs({mb:"1em"})`
+  font-weight: ${({theme:a})=>a.typography.fontWeightBold};
+`,LightButton=styled.button`
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+  color: ${({theme:a})=>a.colors.text.secondary};
+`;

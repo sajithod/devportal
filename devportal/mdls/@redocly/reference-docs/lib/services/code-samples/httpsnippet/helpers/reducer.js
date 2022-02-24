@@ -1,0 +1,2 @@
+"use strict";function default_1(e,a){if(void 0===e[a.name])return e[a.name]=a.value,e;if(e[a.name]instanceof Array)return e[a.name].push(a.value),e;var n=[e[a.name],a.value];return e[a.name]=n,e}Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=default_1;
+//# sourceMappingURL=reducer.js.map

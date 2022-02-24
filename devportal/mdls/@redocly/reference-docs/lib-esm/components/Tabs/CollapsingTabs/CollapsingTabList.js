@@ -1,0 +1,2 @@
+import{__makeTemplateObject}from"tslib";import styled from"../../../redoc-lib/src/styled-components";import{TabList}from"../TabList";export var CollapsingTabList=styled(TabList)(templateObject_1||(templateObject_1=__makeTemplateObject(["\n  border-bottom: 4px solid ",";\n  margin: 0 0 10px;\n"],["\n  border-bottom: 4px solid ",";\n  margin: 0 0 10px;\n"])),(function(t){return t.theme.colors.border.dark}));var templateObject_1;
+//# sourceMappingURL=CollapsingTabList.js.map

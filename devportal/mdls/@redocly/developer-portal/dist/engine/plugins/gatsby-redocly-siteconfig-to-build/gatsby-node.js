@@ -1,0 +1,1 @@
+const path=require("path"),{copyFileSync}=require("fs");exports.onPostBuild=async(a,{configPath:b,publicDir:c})=>{copyFileSync(path.resolve(b,"siteConfig.yaml"),path.resolve(c,"siteConfig.yaml"))};

@@ -1,0 +1,61 @@
+{
+  "_from": "gatsby-plugin-segment-js@3.6.0",
+  "_id": "gatsby-plugin-segment-js@3.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-kdpXV5RUGR5dRcSJHsUxP2+FY8XDOAqi3disj0SHdR5mZDAg4QtpiCQZYRB6Ji1/aP87oypoJVyeu6s1+GpHSw==",
+  "_location": "/gatsby-plugin-segment-js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "gatsby-plugin-segment-js@3.6.0",
+    "name": "gatsby-plugin-segment-js",
+    "escapedName": "gatsby-plugin-segment-js",
+    "rawSpec": "3.6.0",
+    "saveSpec": null,
+    "fetchSpec": "3.6.0"
+  },
+  "_requiredBy": [
+    "/@redocly/developer-portal"
+  ],
+  "_resolved": "https://registry.npmjs.org/gatsby-plugin-segment-js/-/gatsby-plugin-segment-js-3.6.0.tgz",
+  "_shasum": "740b2a5e6730119147e0dd1fb2c39acca83e353d",
+  "_spec": "gatsby-plugin-segment-js@3.6.0",
+  "_where": "F:\\devportal\\node_modules\\@redocly\\developer-portal",
+  "author": {
+    "name": "benjamin hoffman",
+    "email": "6520022+benjaminhoffman@users.noreply.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/benjaminhoffman/gatsby-plugin-segment-js/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Easily add Segment JS snippet to your website",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "homepage": "https://github.com/benjaminhoffman/gatsby-plugin-segment-js#readme",
+  "keywords": [
+    "segment analytics",
+    "segment",
+    "segment javascript",
+    "analytics.js",
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "license": "MIT",
+  "main": "gatsby-ssr.js",
+  "name": "gatsby-plugin-segment-js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/benjaminhoffman/gatsby-plugin-segment.git"
+  },
+  "scripts": {
+    "build": "babel src --out-dir . --ignore __tests__",
+    "watch": "babel -w src --out-dir . --ignore __tests__"
+  },
+  "version": "3.6.0"
+}

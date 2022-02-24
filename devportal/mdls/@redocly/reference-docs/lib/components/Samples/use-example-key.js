@@ -1,0 +1,2 @@
+"use strict";function useExampleKey(e,a){var t=void 0===e?{}:e,l=t.activeExampleName,p=t.defaultExampleName;return{exampleKey:l&&a[l]?l:Object.keys(a)[0],defaultExampleName:p}}Object.defineProperty(exports,"__esModule",{value:!0}),exports.useExampleKey=void 0,exports.useExampleKey=useExampleKey;
+//# sourceMappingURL=use-example-key.js.map

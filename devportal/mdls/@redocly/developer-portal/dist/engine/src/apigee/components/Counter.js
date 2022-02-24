@@ -1,0 +1,1 @@
+import*as React from"react";export function Counter(){const[a,b]=React.useState(0);return React.createElement("div",{style:{border:"1px solid red",padding:"10px"}},React.createElement("div",{style:{fontSize:"18px",marginBottom:"10px"}},"Clicks: ",React.createElement("strong",null,a)),React.createElement("button",{onClick:()=>b(a+1)}," Click "))}

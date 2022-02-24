@@ -1,0 +1,95 @@
+{
+  "_from": "gatsby-remark-image-attributes@1.0.0-4",
+  "_id": "gatsby-remark-image-attributes@1.0.0-4",
+  "_inBundle": false,
+  "_integrity": "sha512-k5xJoqabmsRxiN0yDcl6YSnjykOP6QTS+ZnnEnReutsh6fRl/0uWscjpjKGNrZSJ7kckZ5pooNZoo3bIHqPmrw==",
+  "_location": "/gatsby-remark-image-attributes",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "gatsby-remark-image-attributes@1.0.0-4",
+    "name": "gatsby-remark-image-attributes",
+    "escapedName": "gatsby-remark-image-attributes",
+    "rawSpec": "1.0.0-4",
+    "saveSpec": null,
+    "fetchSpec": "1.0.0-4"
+  },
+  "_requiredBy": [
+    "/@redocly/developer-portal"
+  ],
+  "_resolved": "https://registry.npmjs.org/gatsby-remark-image-attributes/-/gatsby-remark-image-attributes-1.0.0-4.tgz",
+  "_shasum": "46c3c9a4db8472f561410ea75b15d0000f6dd84e",
+  "_spec": "gatsby-remark-image-attributes@1.0.0-4",
+  "_where": "F:\\devportal\\node_modules\\@redocly\\developer-portal",
+  "author": {
+    "name": "Raphael Beer",
+    "email": "raphael.beer@protonmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rbeer/gatsby-remark-image-attributes/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "unist-util-visit": "^2.0.3"
+  },
+  "deprecated": false,
+  "description": "Creates HTML image markup with style and data-* attributes from [`mdAST Image`](https://github.com/syntax-tree/mdast#image) nodes with attributes in their title.",
+  "devDependencies": {
+    "@tsconfig/node10": "^1.0.8",
+    "@tsconfig/node12": "^1.0.8",
+    "@types/jest": "^26.0.23",
+    "@types/mdast": "^3.0.3",
+    "@types/node": "^15.12.2",
+    "@types/unist": "^2.0.3",
+    "cross-env": "^5.2.1",
+    "jest": "^27.0.4",
+    "jest-junit": "^12.2.0",
+    "jest-serializer-path": "^0.1.15",
+    "node-notifier": "^10.0.0",
+    "remark": "^13.0.0",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "files": [
+    "README.md",
+    "LICENSE.md",
+    "yarn.lock",
+    "package.json",
+    "dist/"
+  ],
+  "homepage": "https://github.com/rbeer/gatsby-remark-image-attributes",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "image",
+    "markdown",
+    "remark"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "gatsby-remark-image-attributes",
+  "peerDependencies": {
+    "gatsby": "^2.24.50 || ^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbeer/gatsby-remark-image-attributes.git"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "cov": "npm run test -- --coverage",
+    "covdev": "npm run dev -- --coverage",
+    "dev": "jest --watch -c jest.config.ts",
+    "postpublish": "npm run stats",
+    "prepublishOnly": "./scripts/prepublish.sh",
+    "stats": "npx howfat -r tree gatsby-remark-image-attributes@latest",
+    "test": "jest -c jest.config.ts",
+    "update-css-props": "ts-node ./scripts/update-css-props.ts"
+  },
+  "version": "1.0.0-4"
+}

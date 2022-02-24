@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.RenderHook=void 0;var tslib_1=require("tslib"),React=(0,tslib_1.__importStar)(require("react"));function RenderHook(e){if(!e.Hook)return null;var r=e.Hook(e.props);return r&&r.html?React.createElement("span",{dangerouslySetInnerHTML:{__html:r.html}}):r}exports.RenderHook=RenderHook;
+//# sourceMappingURL=helper.js.map

@@ -1,0 +1,2 @@
+import{__makeTemplateObject}from"tslib";import styled from"../../redoc-lib/src/styled-components";import{Header}from"./Header";import{DarkHeader}from"./DarkHeader";export var CodeHeader=styled(Header)(templateObject_1||(templateObject_1=__makeTemplateObject(["\n  ",";\n\n  cursor: default;\n  border-bottom-right-radius: 0;\n  border-bottom-left-radius: 0;\n"],["\n  ",";\n\n  cursor: default;\n  border-bottom-right-radius: 0;\n  border-bottom-left-radius: 0;\n"])),DarkHeader);var templateObject_1;
+//# sourceMappingURL=CodeHeader.js.map

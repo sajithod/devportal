@@ -1,0 +1,2 @@
+import{__assign}from"tslib";import*as React from"react";import{ThemeProvider,OptionsProvider,StoreProvider}from"../redoc-lib";export var ProProviders=function(e){var r=e.store,o=e.children,t=e.customOptions,i=void 0===t?{}:t,a=__assign(__assign({},r.options),i);return React.createElement(ThemeProvider,{theme:r.options.theme},React.createElement(OptionsProvider,{value:a},React.createElement(StoreProvider,{value:r},o)))};
+//# sourceMappingURL=ProProviders.js.map

@@ -1,0 +1,2 @@
+function throttle(t,e){var n,l,u,r=null,o=0,i=function(){o=(new Date).getTime(),r=null,u=t.apply(n,l),r||(n=l=null)};return function(){var a=(new Date).getTime(),c=e-(a-o);return n=this,l=arguments,c<=0||c>e?(r&&(clearTimeout(r),r=null),o=a,u=t.apply(n,l),r||(n=l=null)):r||(r=setTimeout(i,c)),u}}export function Throttle(t){return function(e,n,l){l.value=throttle(l.value,t)}}
+//# sourceMappingURL=decorators.js.map

@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.useMount=void 0;var react_1=require("react"),useMount=function(e){(0,react_1.useEffect)((function(){e()}),[])};exports.useMount=useMount;
+//# sourceMappingURL=useMount.js.map

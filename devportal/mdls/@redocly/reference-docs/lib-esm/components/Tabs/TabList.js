@@ -1,0 +1,2 @@
+import{__makeTemplateObject}from"tslib";import{TabList as ReactTabList}from"react-tabs";import styled from"../../redoc-lib/src/styled-components";export var TabList=styled(ReactTabList)(templateObject_1||(templateObject_1=__makeTemplateObject(["\n  display: flex;\n  list-style: none;\n  padding: 0;\n  margin: 0;\n"],["\n  display: flex;\n  list-style: none;\n  padding: 0;\n  margin: 0;\n"])));var templateObject_1;
+//# sourceMappingURL=TabList.js.map

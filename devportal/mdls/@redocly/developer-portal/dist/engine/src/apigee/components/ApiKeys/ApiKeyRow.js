@@ -1,0 +1,1 @@
+import*as React from"react";import OverviewRow from"./OverviewRow";import TruncatedText from"./TruncatedText";import CopyButton from"../common-elements/CopyButton";export default function APiKeyRow(a){const{apiKey:b}=a;return React.createElement(OverviewRow,{title:"API Key",content:React.createElement(TruncatedText,null,b),action2:React.createElement(CopyButton,{value:b})})}

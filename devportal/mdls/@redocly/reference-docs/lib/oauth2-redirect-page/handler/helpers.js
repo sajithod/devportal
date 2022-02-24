@@ -1,0 +1,2 @@
+"use strict";function isStateValid(e,t){return Boolean(e)&&Boolean(t)&&e===t}Object.defineProperty(exports,"__esModule",{value:!0}),exports.isStateValid=exports.genericErrorMessage=void 0,exports.genericErrorMessage="Something went wrong, please, try again.",exports.isStateValid=isStateValid;
+//# sourceMappingURL=helpers.js.map

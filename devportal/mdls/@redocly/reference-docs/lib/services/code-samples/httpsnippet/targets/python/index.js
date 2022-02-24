@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var tslib_1=require("tslib"),requests_1=(0,tslib_1.__importDefault)(require("./requests"));exports.default={info:{key:"python",title:"Python",extname:".py",default:"python3"},requests:requests_1.default};
+//# sourceMappingURL=index.js.map

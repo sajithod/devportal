@@ -1,0 +1,1 @@
+export const anypointAuthorizeEndpoint="https://anypoint.mulesoft.com/accounts/api/v2/oauth2/authorize";export const portalRedirectPath=`/_auth/mulesoft`;export const getRedoclyAnypointUri=a=>`https://api.redoc.ly/auth/mule?org_id=${encodeURIComponent(a)}`;

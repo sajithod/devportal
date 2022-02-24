@@ -1,0 +1,1 @@
+export function getAppDisplayName(a){return a?.find(a=>"DisplayName"===a?.name)?.value}export function getReadableDate(a){return new window.Date(parseInt(a,10)).toLocaleString("en-US",{day:"numeric",month:"short",year:"numeric"})}

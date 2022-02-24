@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Tabs=void 0;var tslib_1=require("tslib");(0,tslib_1.__exportStar)(require("./TabList"),exports),(0,tslib_1.__exportStar)(require("./Tab"),exports),(0,tslib_1.__exportStar)(require("./TabPanel"),exports),(0,tslib_1.__exportStar)(require("./SmallTab"),exports),(0,tslib_1.__exportStar)(require("./CollapsingTabs"),exports);var react_tabs_1=require("react-tabs");Object.defineProperty(exports,"Tabs",{enumerable:!0,get:function(){return react_tabs_1.Tabs}});
+//# sourceMappingURL=index.js.map

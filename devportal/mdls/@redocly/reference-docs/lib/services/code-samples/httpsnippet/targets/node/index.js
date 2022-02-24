@@ -1,0 +1,2 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var tslib_1=require("tslib"),fetch_1=(0,tslib_1.__importDefault)(require("./fetch"));exports.default={info:{key:"node",title:"Node.js",extname:".js",default:"fetch"},fetch:fetch_1.default};
+//# sourceMappingURL=index.js.map

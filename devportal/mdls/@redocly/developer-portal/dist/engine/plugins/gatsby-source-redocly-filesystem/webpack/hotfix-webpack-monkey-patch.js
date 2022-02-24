@@ -1,0 +1,1 @@
+const webpackUtils=require("gatsby/dist/utils/webpack-utils"),origCreateWebpackUtils=webpackUtils.createWebpackUtils;webpackUtils.createWebpackUtils=(...a)=>{const b=origCreateWebpackUtils(...a);return{...b,plugins:{...b.plugins,moment:()=>b.plugins.ignore({resourceRegExp:/^\.\/locale$/,contextRegExp:/moment$/})}}};

@@ -1,0 +1,1 @@
+import*as React from"react";import{getReadableDate}from"../../../apigee/services/helpers";import OverviewRow from"./OverviewRow";import TruncatedText from"./TruncatedText";export default function CreatedAtRow(a){const{createdAt:b}=a,c=getReadableDate(b);return React.createElement(OverviewRow,{title:"Created",content:React.createElement(TruncatedText,null,c)})}

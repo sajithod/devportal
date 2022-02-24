@@ -1,0 +1,2 @@
+export function useExampleKey(e,a){var m=void 0===e?{}:e,l=m.activeExampleName,t=m.defaultExampleName;return{exampleKey:l&&a[l]?l:Object.keys(a)[0],defaultExampleName:t}}
+//# sourceMappingURL=use-example-key.js.map

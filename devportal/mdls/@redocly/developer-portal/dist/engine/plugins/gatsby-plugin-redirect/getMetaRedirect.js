@@ -1,0 +1,1 @@
+module.exports=function(a){let b=a.trim();const c=b.includes("://");if(!c){const a=b.startsWith("/");a||(b=`/${b}`);const c=b.includes(".");c||(b=`${b}/`.replace(/\/\/+/g,"/"))}return`<meta http-equiv="refresh" content="0; URL='${b}'" />`};
